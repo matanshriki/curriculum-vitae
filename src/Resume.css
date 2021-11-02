@@ -1,0 +1,9 @@
+a{
+    text-decoration: none;
+}
+.resume-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
