@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '@mui/material/Button';
 import './Resume.css';
+import Social from './Social'
 
 function Resume() {
     return (
@@ -20,6 +21,8 @@ function Resume() {
                     Matan's resume
                 </a>
             </Button>
+            <br></br>
+            <p><Social /></p>
         </div>
     );
 }

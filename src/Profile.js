@@ -1,12 +1,13 @@
 import React from 'react';
 import './Profile.css';
+import Social from './Social'
 
 
 function Profile() {
     return (
-    <div>
+    <>
         <h1>Matan Shriki</h1>
-        <h2 className="profile-sub-heading">Professional Services Engineer Team Lead</h2>
+        <h2 className="profile-sub-heading">Professional Services Engineer, Team Lead</h2>
             <p>
                 Hi, <br></br>
                 <p>I am a Full Stack Engineer, currently working with JavaScript frameworks. <br></br>
@@ -19,7 +20,8 @@ function Profile() {
                 <br></br>
                 <p>Have a look at my resume for more details &#128512;</p>
             </p>
-    </div>
+            <Social/>
+    </>
     );
 }
 

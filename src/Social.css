@@ -1,0 +1,20 @@
+img{
+    width: 45px;
+    height: 45px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    margin-right: 15px;
+}
