@@ -45,6 +45,7 @@ function Profile() {
                     Hire me!
                 </a>
             </Button>
+            <h4 className="contact-me">Contact me via</h4>
             <Social />
         </>
     );

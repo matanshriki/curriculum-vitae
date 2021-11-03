@@ -27,9 +27,9 @@ function Skills() {
                                     variant="body2"
                                     color="text.primary"
                                 >
-                                    ReactJS
+                                    VanillaJS, TypeScript, jQuery, ReactJS
               </Typography>
-                                {" — Web application"}
+                                {" — Developing Web applications using ReactJS framework."}
                             </React.Fragment>
                         }
                     />
@@ -51,7 +51,7 @@ function Skills() {
                                 >
                                     HTML5
               </Typography>
-                                {" — Building web pages"}
+                                {" — Building web and landing pages."}
                             </React.Fragment>
                         }
                     />
@@ -73,7 +73,7 @@ function Skills() {
                                 >
                                     CSS3
               </Typography>
-                                {' — UI projects using: Gulp, Sass, MUI'}
+                                {' — UI projects using: Gulp, Sass, MUI, Styled-Components.'}
                             </React.Fragment>
                         }
                     />
@@ -95,7 +95,7 @@ function Skills() {
                                 >
                                     Server
               </Typography>
-                                {" — Express"}
+                                {" — Backend development - RESTful APIs, Data-Bases, Express."}
                             </React.Fragment>
                         }
                     />
@@ -121,7 +121,7 @@ function Skills() {
                                 >
                                     Leadership
               </Typography>
-                                {" — Web application"}
+                                {" — Leading the Professional Service team in EMEA."}
                             </React.Fragment>
                         }
                     />
@@ -143,7 +143,7 @@ function Skills() {
                                 >
                                     Creativity
               </Typography>
-                                {" — Building web pages"}
+                                {" — Providing creative solutions for customers."}
                             </React.Fragment>
                         }
                     />
@@ -165,7 +165,7 @@ function Skills() {
                                 >
                                     Problem solving
               </Typography>
-                                {' — UI projects using: Gulp, Sass, MUI'}
+                                {' — Resolves customer complaints with software and responds to suggestions for improvements and enhancements.'}
                             </React.Fragment>
                         }
                     />
@@ -187,7 +187,7 @@ function Skills() {
                                 >
                                     Strategic Thinking
               </Typography>
-                                {" — Express"}
+                                {" — Work with the leadership team to provide strategic direction for the existing toolset."}
                             </React.Fragment>
                         }
                     />
@@ -209,7 +209,7 @@ function Skills() {
                                 >
                                     User Experience
               </Typography>
-                                {' — UI projects using: Gulp, Sass, MUI'}
+                                {' — UI projects using UX/UI tools such as Abstract, InvisionApp.'}
                             </React.Fragment>
                         }
                     />
@@ -231,7 +231,7 @@ function Skills() {
                                 >
                                     Analytical
               </Typography>
-                                {' — UI projects using: Gulp, Sass, MUI'}
+                                {' — Analyze customer behaviour and usage.'}
                             </React.Fragment>
                         }
                     />
@@ -253,7 +253,7 @@ function Skills() {
                                 >
                                     Project Management
               </Typography>
-                                {' — UI projects using: Gulp, Sass, MUI'}
+                                {' — Managing full PS cycle from the scoping through planning to execution.'}
                             </React.Fragment>
                         }
                     />

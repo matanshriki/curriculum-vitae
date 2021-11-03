@@ -22,6 +22,7 @@ function Resume() {
                 </a>
             </Button>
             <br></br>
+            <h4 className="contact-me">Contact me via</h4>
             <p><Social /></p>
         </div>
     );
