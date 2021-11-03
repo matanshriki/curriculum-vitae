@@ -6,101 +6,260 @@ import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
+import './Skills.css';
 
 function Skills() {
     return (
-    <>
-        <h1>Development Skills</h1>
-        <List sx={{ width: '100%', maxWidth: 400, bgcolor: 'background.paper' }}>
-      <ListItem alignItems="flex-start">
-        <ListItemAvatar>
-          <Avatar alt="JavaScript" src="../images/js.png" />
-        </ListItemAvatar>
-        <ListItemText
-          primary="JavaScript"
-          secondary={
-            <React.Fragment>
-              <Typography
-                sx={{ display: 'inline' }}
-                component="span"
-                variant="body2"
-                color="text.primary"
-              >
-                ReactJS
+        <>
+            <h1>Development Skills</h1>
+            <List sx={{ width: '100%', maxWidth: 400, bgcolor: 'background.paper' }}>
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="JavaScript" src="../images/js.png" />
+                    </ListItemAvatar>
+                    <ListItemText
+                        primary="JavaScript"
+                        secondary={
+                            <React.Fragment>
+                                <Typography
+                                    sx={{ display: 'inline' }}
+                                    component="span"
+                                    variant="body2"
+                                    color="text.primary"
+                                >
+                                    ReactJS
               </Typography>
-              {" — Web application"}
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemAvatar>
-          <Avatar alt="HTML" src="../images/html.png" />
-        </ListItemAvatar>
-        <ListItemText
-          primary="HTML"
-          secondary={
-            <React.Fragment>
-              <Typography
-                sx={{ display: 'inline' }}
-                component="span"
-                variant="body2"
-                color="text.primary"
-              >
-                HTML5
+                                {" — Web application"}
+                            </React.Fragment>
+                        }
+                    />
+                </ListItem>
+                <Divider variant="inset" component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="HTML" src="../images/html.png" />
+                    </ListItemAvatar>
+                    <ListItemText
+                        primary="HTML"
+                        secondary={
+                            <React.Fragment>
+                                <Typography
+                                    sx={{ display: 'inline' }}
+                                    component="span"
+                                    variant="body2"
+                                    color="text.primary"
+                                >
+                                    HTML5
               </Typography>
-              {" — Building web pages"}
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemAvatar>
-          <Avatar alt="CSS" src="../images/css.png" />
-        </ListItemAvatar>
-        <ListItemText
-          primary="CSS"
-          secondary={
-            <React.Fragment>
-              <Typography
-                sx={{ display: 'inline' }}
-                component="span"
-                variant="body2"
-                color="text.primary"
-              >
-                CSS3
+                                {" — Building web pages"}
+                            </React.Fragment>
+                        }
+                    />
+                </ListItem>
+                <Divider variant="inset" component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="CSS" src="../images/css.png" />
+                    </ListItemAvatar>
+                    <ListItemText
+                        primary="CSS"
+                        secondary={
+                            <React.Fragment>
+                                <Typography
+                                    sx={{ display: 'inline' }}
+                                    component="span"
+                                    variant="body2"
+                                    color="text.primary"
+                                >
+                                    CSS3
               </Typography>
-              {' — UI projects using: Gulp, Sass, MUI'}
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-      <Divider variant="inset" component="li" />
-      <ListItem alignItems="flex-start">
-        <ListItemAvatar>
-          <Avatar alt="NodeJS" src="../images/nodejs.png" />
-        </ListItemAvatar>
-        <ListItemText
-          primary="NodeJS"
-          secondary={
-            <React.Fragment>
-              <Typography
-                sx={{ display: 'inline' }}
-                component="span"
-                variant="body2"
-                color="text.primary"
-              >
-                Server
+                                {' — UI projects using: Gulp, Sass, MUI'}
+                            </React.Fragment>
+                        }
+                    />
+                </ListItem>
+                <Divider variant="inset" component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="NodeJS" src="../images/nodejs.png" />
+                    </ListItemAvatar>
+                    <ListItemText
+                        primary="NodeJS"
+                        secondary={
+                            <React.Fragment>
+                                <Typography
+                                    sx={{ display: 'inline' }}
+                                    component="span"
+                                    variant="body2"
+                                    color="text.primary"
+                                >
+                                    Server
               </Typography>
-              {" — Express"}
-            </React.Fragment>
-          }
-        />
-      </ListItem>
-    </List>
-    </>
+                                {" — Express"}
+                            </React.Fragment>
+                        }
+                    />
+                </ListItem>
+            </List>
+
+            <h1 className="skills-sub">Other Skills</h1>
+            
+            <List sx={{ width: '100%', maxWidth: 400, bgcolor: 'background.paper' }}>
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="JavaScript" src="../images/leadership.png" />
+                    </ListItemAvatar>
+                    <ListItemText
+                        primary="Team Leadership"
+                        secondary={
+                            <React.Fragment>
+                                <Typography
+                                    sx={{ display: 'inline' }}
+                                    component="span"
+                                    variant="body2"
+                                    color="text.primary"
+                                >
+                                    Leadership
+              </Typography>
+                                {" — Web application"}
+                            </React.Fragment>
+                        }
+                    />
+                </ListItem>
+                <Divider variant="inset" component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="Creativity" src="../images/creativity.jpeg" />
+                    </ListItemAvatar>
+                    <ListItemText
+                        primary="Creativity"
+                        secondary={
+                            <React.Fragment>
+                                <Typography
+                                    sx={{ display: 'inline' }}
+                                    component="span"
+                                    variant="body2"
+                                    color="text.primary"
+                                >
+                                    Creativity
+              </Typography>
+                                {" — Building web pages"}
+                            </React.Fragment>
+                        }
+                    />
+                </ListItem>
+                <Divider variant="inset" component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="Problem Solving" src="../images/problem-solving.jpeg" />
+                    </ListItemAvatar>
+                    <ListItemText
+                        primary="Problem Solving"
+                        secondary={
+                            <React.Fragment>
+                                <Typography
+                                    sx={{ display: 'inline' }}
+                                    component="span"
+                                    variant="body2"
+                                    color="text.primary"
+                                >
+                                    Problem solving
+              </Typography>
+                                {' — UI projects using: Gulp, Sass, MUI'}
+                            </React.Fragment>
+                        }
+                    />
+                </ListItem>
+                <Divider variant="inset" component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="Strategic Thinking" src="../images/Strategic-Thinking.jpeg" />
+                    </ListItemAvatar>
+                    <ListItemText
+                        primary="Strategic Thinking"
+                        secondary={
+                            <React.Fragment>
+                                <Typography
+                                    sx={{ display: 'inline' }}
+                                    component="span"
+                                    variant="body2"
+                                    color="text.primary"
+                                >
+                                    Strategic Thinking
+              </Typography>
+                                {" — Express"}
+                            </React.Fragment>
+                        }
+                    />
+                </ListItem>
+                <Divider variant="inset" component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="User Experience" src="../images/ux.png" />
+                    </ListItemAvatar>
+                    <ListItemText
+                        primary="User Experience"
+                        secondary={
+                            <React.Fragment>
+                                <Typography
+                                    sx={{ display: 'inline' }}
+                                    component="span"
+                                    variant="body2"
+                                    color="text.primary"
+                                >
+                                    User Experience
+              </Typography>
+                                {' — UI projects using: Gulp, Sass, MUI'}
+                            </React.Fragment>
+                        }
+                    />
+                </ListItem>
+                <Divider variant="inset" component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="Analytical-skills" src="../images/Analytical.jpeg" />
+                    </ListItemAvatar>
+                    <ListItemText
+                        primary="Analytical Skills"
+                        secondary={
+                            <React.Fragment>
+                                <Typography
+                                    sx={{ display: 'inline' }}
+                                    component="span"
+                                    variant="body2"
+                                    color="text.primary"
+                                >
+                                    Analytical
+              </Typography>
+                                {' — UI projects using: Gulp, Sass, MUI'}
+                            </React.Fragment>
+                        }
+                    />
+                </ListItem>
+                <Divider variant="inset" component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="Project Management" src="../images/pm.jpeg" />
+                    </ListItemAvatar>
+                    <ListItemText
+                        primary="Project Management"
+                        secondary={
+                            <React.Fragment>
+                                <Typography
+                                    sx={{ display: 'inline' }}
+                                    component="span"
+                                    variant="body2"
+                                    color="text.primary"
+                                >
+                                    Project Management
+              </Typography>
+                                {' — UI projects using: Gulp, Sass, MUI'}
+                            </React.Fragment>
+                        }
+                    />
+                </ListItem>
+            </List>
+        </>
     );
 }
 

@@ -16,15 +16,6 @@ function Social() {
                 </li>
                 <li>
                     <a
-                        href="https://linkedin.com/in/matan-shriki"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img src="../images/linkedin.png" alt="linkedin"/>
-                    </a>
-                </li>
-                <li>
-                    <a
                         href="https://github.com/matanshriki"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -34,11 +25,20 @@ function Social() {
                 </li>
                 <li>
                     <a
-                        href="mailto:matan.shriki3@gmail.com/"
-                        target="_blank"
+                        href="mailto:matan.shriki3@gmail.com"
+                        target="_top"
                         rel="noopener noreferrer"
                     >
                         <img src="../images/gmail.png" alt="gmail"/>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://linkedin.com/in/matan-shriki"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src="../images/linkedin.png" alt="linkedin"/>
                     </a>
                 </li>
             </ul>

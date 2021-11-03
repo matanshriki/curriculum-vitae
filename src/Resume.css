@@ -1,9 +1,12 @@
 a{
     text-decoration: none;
 }
+
 .resume-btn{
+    display: flex !important;
+    margin: 0 auto !important;
+}
+.App-link{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }

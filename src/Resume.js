@@ -8,10 +8,10 @@ function Resume() {
         <div>
             <h1>Resume</h1>
             <p>
-                Click on the button below to get my updated resume.
+                Click the button below to get my updated resume.
             </p>
             <br></br>
-            <Button className="resume-btn" variant="contained" downloadResume>
+            <Button className="resume-btn" variant="contained" >
                 <a
                     className="App-link"
                     href="../Matan_Shriki_CV.docx"

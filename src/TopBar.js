@@ -11,6 +11,7 @@ import Profile from './Profile'
 import Skills from './Skills'
 import Resume from './Resume'
 import './TopBar.css';
+import ScrollToTop from './ScrollToTop'
 
 // import PersonIcon from '@mui/icons-material/Person';
 
@@ -60,8 +61,8 @@ export default function TopBar() {
     };
 
     return (
-        <Box sx={{ bgcolor: 'background.paper', width: '100%' }}>
-            <AppBar position='sticky' top='0'>
+        <Box sx={{ bgcolor: 'background.paper', width: '100%', minHeight: '93vh' }}>
+            <AppBar position='fixed' top='0'>
                 <Tabs
                     value={value}
                     onChange={handleChange}
@@ -76,7 +77,7 @@ export default function TopBar() {
                     <Tab label="Resume" {...a11yProps(2)} />
                 </Tabs>
             </AppBar>
-            <SwipeableViews className="Content" 
+            <SwipeableViews className="Content"
                 axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
                 index={value}
                 onChangeIndex={handleChangeIndex}
@@ -91,6 +92,7 @@ export default function TopBar() {
                     <Resume />
                 </TabPanel>
             </SwipeableViews>
+            <ScrollToTop/>
         </Box>
     );
 }

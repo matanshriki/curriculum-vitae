@@ -1,0 +1,13 @@
+.scrollBtn{
+    position: fixed !important;
+    border: 1.5px solid #2e7d32 !important;
+    margin: 0 0 10px 10px !important;
+    bottom: 5px;
+    z-index: 1;
+    background: #9cdb9f !important;
+    color: #fff !important;
+}
+.scrollBtn:hover{
+    background: #9cdb9f !important;
+    color: #fff !important;
+}
