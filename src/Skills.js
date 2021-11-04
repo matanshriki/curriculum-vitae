@@ -12,7 +12,7 @@ function Skills() {
     return (
         <>
             <h1>Development Skills</h1>
-            <List sx={{ width: '100%', maxWidth: 400, bgcolor: 'background.paper' }}>
+            <List className="dev-list" sx={{ width: '100%', maxWidth: 400, bgcolor: 'background.paper' }}>
                 <ListItem alignItems="flex-start">
                     <ListItemAvatar>
                         <Avatar alt="JavaScript" src="../images/js.png" />
@@ -104,7 +104,7 @@ function Skills() {
 
             <h1 className="skills-sub">Other Skills</h1>
             
-            <List sx={{ width: '100%', maxWidth: 400, bgcolor: 'background.paper' }}>
+            <List className="other-list" sx={{ width: '100%', maxWidth: 400, bgcolor: 'background.paper' }}>
                 <ListItem alignItems="flex-start">
                     <ListItemAvatar>
                         <Avatar alt="JavaScript" src="../images/leadership.png" />

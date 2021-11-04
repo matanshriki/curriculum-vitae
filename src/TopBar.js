@@ -61,7 +61,7 @@ export default function TopBar() {
     };
 
     return (
-        <Box sx={{ bgcolor: 'background.paper', width: '100%', minHeight: '93vh' }}>
+        <Box className="main-container" sx={{ bgcolor: 'background.paper', width: '100%', minHeight: '93vh' }}>
             <AppBar position='fixed' top='0'>
                 <Tabs
                     value={value}

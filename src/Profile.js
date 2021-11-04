@@ -16,7 +16,7 @@ function Profile() {
                 />
                 <div className="profile-header">
                     <h1>Matan Shriki</h1>
-                    <h2 className="profile-sub-heading">Professional Services Engineer, Team Lead</h2>
+                    <h2 className="profile-sub-heading">Team Lead, Professional Services, EMEA</h2>
                     <p>
                         Hello, recruiter, <br />
                         <p> My name is Matan and I am a Professional Services Engineers Team Lead, working with JavaScript frameworks.<br />
@@ -30,9 +30,7 @@ function Profile() {
                         <br />
                         <p>Have a look at my <a href="../Matan_Shriki_CV.docx">resume</a> for more details &#128512;</p>
                     </p>
-                    {/* <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p> */}
+                    
                 </div>
             </div>
             <Button className="hire-me" variant="contained" >

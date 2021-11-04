@@ -1,7 +1,12 @@
+.main-container{
+    /* background: #d2e5f9 !important;
+    background: #f0f6fd !important; */
+}
+
 .Content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 35px
-}
+    padding-top: 35px;   
+  }
