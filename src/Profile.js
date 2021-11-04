@@ -19,7 +19,7 @@ function Profile() {
                     <h2 className="profile-sub-heading">Professional Services Engineer, Team Lead</h2>
                     <p>
                         Hello, recruiter, <br />
-                        <p> My name is Matan and I am a Professional Services Engineers team lead, working with JavaScript frameworks.<br />
+                        <p> My name is Matan and I am a Professional Services Engineers Team Lead, working with JavaScript frameworks.<br />
                             I am looking for a product management position in Tel Aviv and the area.
                             For the past few years, I’ve been working in positions between customers to developing.
                         </p>
