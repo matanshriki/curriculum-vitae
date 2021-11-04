@@ -13,7 +13,7 @@ import Resume from './Resume'
 import './TopBar.css';
 import ScrollToTop from './ScrollToTop'
 
-// import PersonIcon from '@mui/icons-material/Person';
+import PersonIcon from '@mui/icons-material/Person';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -70,7 +70,6 @@ export default function TopBar() {
                     textColor="inherit"
                     variant="fullWidth"
                     aria-label="full width tabs example"
-
                 >
                     <Tab label="Profile" {...a11yProps(0)} />
                     <Tab label="Skills" {...a11yProps(1)} />
@@ -92,7 +91,7 @@ export default function TopBar() {
                     <Resume />
                 </TabPanel>
             </SwipeableViews>
-            <ScrollToTop/>
+            <ScrollToTop />
         </Box>
     );
 }
